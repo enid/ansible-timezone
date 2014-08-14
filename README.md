@@ -1,21 +1,32 @@
-timezone
-========
-
-[![Build Status](https://travis-ci.org/knopki/ansible-timezone.svg?branch=master)](https://travis-ci.org/knopki/ansible-timezone)
+## timezone [![Build Status](https://travis-ci.org/tersmitten/ansible-timezone.svg?branch=master)](https://travis-ci.org/tersmitten/ansible-timezone)
 
 Set timezone on Debian-like systems.
 
-Role Variables
---------------
+#### Requirements
 
- * *timezone_zone* - timezone (like _UTC_, _Europe/Moscow_)
+None
 
-License
--------
+#### Variables
+
+ * *timezone_zone* - A timezone (e.g. UTC, Europe/Amsterdam)
+
+## Dependencies
+
+None
+
+#### Example
+
+```yaml
+---
+- hosts: all
+  roles:
+  - timezone
+```
+
+#### License
 
 MIT
 
-Author Information
-------------------
+#### Feedback, bug-reports, requests, ...
 
-Sergey Korolev (<korolev.srg@gmail.com>)
+Are [welcome](https://github.com/tersmitten/ansible-apparmor/issues)!
