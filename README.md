@@ -1,4 +1,4 @@
-## timezone [![Build Status](https://travis-ci.org/tersmitten/ansible-timezone.svg?branch=master)](https://travis-ci.org/tersmitten/ansible-timezone)
+## timezone [![Build Status](https://travis-ci.org/Oefenweb/ansible-timezone.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-timezone)
 
 Set timezone on Debian-like systems.
 
@@ -29,4 +29,4 @@ MIT
 
 #### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/tersmitten/ansible-apparmor/issues)!
+Are [welcome](https://github.com/Oefenweb/ansible-apparmor/issues)!
