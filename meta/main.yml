@@ -1,8 +1,11 @@
 ---
+# meta file for timezone
 galaxy_info:
-  author: Sergey Korolev
+  author: Mischa ter Smitten
+  company: Oefenweb.nl B.V.
   description: Set timezone on Debian-like systems.
   license: MIT
+  min_ansible_version: 1.3
   platforms:
   - name: Ubuntu
     versions:
