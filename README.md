@@ -8,7 +8,7 @@ None
 
 #### Variables
 
- * *timezone_zone* - A timezone (e.g. UTC, Europe/Amsterdam)
+ * `timezone_zone` [default: `UTC`]: A timezone (e.g. UTC, Europe/Amsterdam)
 
 ## Dependencies
 
