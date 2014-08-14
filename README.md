@@ -29,4 +29,4 @@ MIT
 
 #### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/Oefenweb/ansible-apparmor/issues)!
+Are [welcome](https://github.com/Oefenweb/ansible-timezone/issues)!
