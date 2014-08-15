@@ -27,6 +27,10 @@ None
 
 MIT
 
+#### Author Information
+
+Mischa ter Smitten (based on work of knopki)
+
 #### Feedback, bug-reports, requests, ...
 
 Are [welcome](https://github.com/Oefenweb/ansible-timezone/issues)!
