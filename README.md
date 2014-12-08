@@ -1,4 +1,6 @@
-## timezone [![Build Status](https://travis-ci.org/Oefenweb/ansible-timezone.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-timezone)
+## timezone
+
+[![Build Status](https://travis-ci.org/Oefenweb/ansible-timezone.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-timezone) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-timezone-blue.svg)](https://galaxy.ansible.com/list#/roles/1344)
 
 Set timezone on Debian-like systems.
 
