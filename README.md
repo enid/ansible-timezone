@@ -10,7 +10,7 @@ None
 
 #### Variables
 
- * `timezone_zone` [default: `UTC`]: A timezone (e.g. UTC, Europe/Amsterdam)
+ * `timezone_zone` [default: `Etc/UTC`]: A timezone (e.g. UTC, Europe/Amsterdam)
 
 ## Dependencies
 
@@ -22,7 +22,7 @@ None
 ---
 - hosts: all
   roles:
-  - timezone
+    - timezone
 ```
 
 #### License
