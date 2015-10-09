@@ -5,7 +5,7 @@
     src: /usr/share/zoneinfo/{{ timezone_zone }}
     dest: /etc/localtime
     state: link
-    force: yes
+    force: true
   tags: [configuration, timezone]
 
 - name: configure /etc/timezone
