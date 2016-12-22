@@ -6,7 +6,10 @@
     dest: /etc/localtime
     state: link
     force: true
-  tags: [configuration, timezone]
+  tags:
+    - configuration
+    - timezone
+    - timezone-configure-etc-localtime
 
 - name: configure /etc/timezone
   template:
@@ -16,4 +19,7 @@
     group: root
     mode: 0644
   notify: update tzdata
-  tags: [configuration, timezone]
+  tags:
+    - configuration
+    - timezone
+    - timezone-configure-etc-timezone
